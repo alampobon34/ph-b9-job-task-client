@@ -1,8 +1,14 @@
+import useAuth from "../hooks/useAuth";
+import { Navigate, useLocation } from "react-router-dom";
+import Loader from "../components/common/Loader";
 
-const GuestRoute = () => {
-  return (
-    <div>Guest.Route</div>
-  )
-}
+const GuestRoute = ({ children }) => {
+  const { user, loading } = useAuth();
+  const location = useLocation();
 
-export default GuestRoute
+  if (loading) return <Loader className={"fixed inset-0 w-full h-full"} />;
+  if (user) return <Navigate to="/" state={location.pathname} replace="true" />;
+  return children;
+};
+
+export default GuestRoute;
