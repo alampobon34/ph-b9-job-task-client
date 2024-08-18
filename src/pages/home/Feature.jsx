@@ -5,15 +5,16 @@ import ProductCard from "../../components/cards/ProductCard";
 import Loader from "../../components/common/Loader";
 import { Link } from "react-router-dom";
 import { Button } from "@material-tailwind/react";
+import { api } from "../../services/axios";
 const Feature = () => {
   const { data: featureList = [], isLoading } = useQuery({
     queryKey: ["feature-list"],
     queryFn: async () => {
-      //   const { data } = products
-      return products;
+      const { data } = await api.get("/products/top-6");
+      return data;
     },
   });
-  console.log(featureList);
+
   return (
     <section className="my-10">
       <div className="wrapper">

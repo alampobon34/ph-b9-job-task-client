@@ -61,5 +61,14 @@
         "brand": "Masafi",
         "ratings": 3.9,
         "imageUrl": "https://cdn.dummyjson.com/products/images/groceries/Juice/1.png"
+    },
+    {
+        "productName": "Apple MacBook Pro 14 Inch Space Grey",
+        "description": "The MacBook Pro 14 Inch in Space Grey is a powerful and sleek laptop, featuring Apple's M1 Pro chip for exceptional performance and a stunning Retina display.",
+        "price": 155000,
+        "category": "Laptop",
+        "brand": "Apple",
+        "ratings": 4.5,
+        "imageUrl": "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/1.png"
     }
 ]
