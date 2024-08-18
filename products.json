@@ -1,0 +1,65 @@
+[
+    {
+        "productName": "iPhone 15 Pro Max",
+        "description": "iPhone 15 Pro Max Features. Made of aerospace-grade titanium and collabs with awe-inspiring colors.",
+        "price": 157500,
+        "category": "Phone",
+        "brand": "Apple",
+        "ratings": 4.5,
+        "imageUrl": "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-15-Plus-(2)-(6)-5363.jpg"
+    },
+    {
+        "productName": "Samsung Galaxy Fold 5",
+        "description": "Meet Galaxy Z Fold5, the new foldable phone with a long-lasting battery that puts a big screen.",
+        "price": 142000,
+        "category": "Phone",
+        "brand": "Samsung",
+        "ratings": 4.2,
+        "imageUrl": "https://www.custommacbd.com/cdn/shop/files/Galaxy-Z-Fold5-Cream-Custom-Mac-BD.jpg?v=1693119339"
+    },
+    {
+        "productName": "Play Station 5",
+        "description": "Incredible PS5 games available now · On-demand games with PlayStation Plus · Spectacular visuals at lightning speed.",
+        "price": 55000,
+        "category": "Gaming Console",
+        "brand": "Sony",
+        "ratings": 4.0,
+        "imageUrl": "https://assets-prd.ignimgs.com/2023/10/10/ps5thumb-1696954542971.jpg"
+    },
+    {
+        "productName": "Selfie Stick Monopod",
+        "description": "The Selfie Stick Monopod is a extendable and foldable device for capturing the perfect selfie or group photo. Compatible with smartphones and cameras.",
+        "price": 1200,
+        "category": "Accessories",
+        "brand": "SnapTech",
+        "ratings": 2.93,
+        "imageUrl": "https://cdn.dummyjson.com/products/images/mobile-accessories/Selfie%20Stick%20Monopod/1.png"
+    },
+    {
+        "productName": "Vivo X21",
+        "description": "The Vivo X21 is a premium smartphone with a focus on cutting-edge technology. It features an in-display fingerprint sensor, a high-resolution display, and advanced camera capabilities.",
+        "price": 1200,
+        "category": "Phone",
+        "brand": "Vivo",
+        "ratings": 3.3,
+        "imageUrl": "https://cdn.dummyjson.com/products/images/smartphones/Vivo%20X21/1.png"
+    },
+    {
+        "productName": "Ice Cream",
+        "description": "Creamy and delicious ice cream, available in various flavors for a delightful treat.",
+        "price": 200,
+        "category": "Groceries",
+        "brand": "Igloo",
+        "ratings": 3.9,
+        "imageUrl": "https://cdn.dummyjson.com/products/images/groceries/Ice%20Cream/1.png"
+    },
+    {
+        "productName": "Juice",
+        "description": "Refreshing fruit juice, packed with vitamins and great for staying hydrated.",
+        "price": 250,
+        "category": "Groceries",
+        "brand": "Masafi",
+        "ratings": 3.9,
+        "imageUrl": "https://cdn.dummyjson.com/products/images/groceries/Juice/1.png"
+    }
+]

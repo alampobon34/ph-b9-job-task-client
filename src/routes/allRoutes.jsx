@@ -7,17 +7,31 @@ import Login from "../pages/login/Login";
 import Register from "../pages/register/Register";
 
 export const router = createBrowserRouter([
-    {
-        path: '/',
-        element: <MainLayout />,
-        errorElement: <ErrorPage />,
-        children: [
-            {
-                path: '/',
-                element: <Home />,
-            },
-        ],
-    },
-    { path: '/login', element: <GuestRoute><Login /></GuestRoute> },
-    { path: '/register', element: <GuestRoute><Register /></GuestRoute> },
-])
+  {
+    path: "/",
+    element: <MainLayout />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+    ],
+  },
+  {
+    path: "/login",
+    element: (
+      <GuestRoute>
+        <Login />
+      </GuestRoute>
+    ),
+  },
+  {
+    path: "/register",
+    element: (
+      <GuestRoute>
+        <Register />
+      </GuestRoute>
+    ),
+  },
+]);
